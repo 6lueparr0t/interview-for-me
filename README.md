@@ -83,5 +83,12 @@ https://github.com/Integerous/goQuality-dev-contents
 
 다익스트라(Dijkstra) 알고리즘
 
-자료구조
+자료구조 장단점과 각각 사용 이유
+
+링크드리스트
+스택
+큐
+트리
+
+등등
 ```
