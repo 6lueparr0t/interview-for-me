@@ -82,4 +82,6 @@ https://github.com/Integerous/goQuality-dev-contents
 퀵
 
 다익스트라(Dijkstra) 알고리즘
+
+자료구조
 ```
