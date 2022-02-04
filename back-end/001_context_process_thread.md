@@ -1,6 +1,4 @@
-## 1. 컨텍스트(Context)와 컨텍스트 스위칭(Context Switching) 에 대해서 간략하게 설명해주세요.
-
-### 답변
+## 1. 컨텍스트(Context)와 컨텍스트 스위칭(Context Switching) 에 대해서 간략하게 설명해주세요
 
 - 컨텍스트란.. 번역으로는 문맥이라는 용어로 직역이 되는데, 어떤 객체를 핸들링하기 위한 접근 수단이라고 봅니다. 작업을 하기 위해 처리하는 어떤 행위 (Task, Method .. ) 를 위한 정보의 통칭입니다. 예를 들면 면접관님께서 저에게 어떠한 대답을 할 것을 요청하는 경우 저는 그에 해당하는 대답을 하겠죠? 이 예시에서 면접관님이 context 를 다룬다고 생각하시면 됩니다.
 
@@ -8,16 +6,15 @@
 
 ## 2 프로세스와 스레드의 차이는?
 
-### 답변
-
 - 프로세스는 프로그램이 실행이 되어 있을 때, 메모리에 올라와 실행되고 있는 프로그램의 인스턴스(메모리에 저장공간이 할당 된, 실체화된 객체) 라고 보시면 되구요,  스레드는 프로세스 안에서 작업을 처리하는 주최 입니다.
 
 ## 3 멀티 스레드와 장단점은?
 
-- 답변 : 하나의 응용 프로그램을 여러개의 스레드로 구성하고, 각각 스레드가 하나의 작업을 처리하도록 하는 것 입니다. 스레드 간에는 공유 데이터 공간이 있어 서로 통신이 가능하기 때문에 Context-Switching 이 적게 일어나서 처리 속도가 빠르고 효율적 입니다. 단점은 스레드 하나가 잘못될 경우 프로세스 전체에 영향을 가할 수 있구요, 자원을 공휴하기 때문에 동기화 문제가 발생할 여지가 있습니다.
+- 하나의 응용 프로그램을 여러개의 스레드로 구성하고, 각각 스레드가 하나의 작업을 처리하도록 하는 것 입니다. 스레드 간에는 공유 데이터 공간이 있어 서로 통신이 가능하기 때문에 Context-Switching 이 적게 일어나서 처리 속도가 빠르고 효율적 입니다. 단점은 스레드 하나가 잘못될 경우 프로세스 전체에 영향을 가할 수 있구요, 자원을 공휴하기 때문에 동기화 문제가 발생할 여지가 있습니다.
 
 ## 참고
-- 컨텍스트 : https://pflb.tistory.com/entry/Context%EA%B0%80-%EB%AD%90%EC%A3%A0
-- 컨텍스트 스위칭 : https://nesoy.github.io/articles/2018-11/Context-Switching
-- PCB : https://jwprogramming.tistory.com/16
-- 프로세스와 스레드 : https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.html / https://velog.io/@raejoonee/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80-%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4
+
+- 컨텍스트 : <https://pflb.tistory.com/entry/Context%EA%B0%80-%EB%AD%90%EC%A3%A0>
+- 컨텍스트 스위칭 : <https://nesoy.github.io/articles/2018-11/Context-Switching>
+- PCB : <https://jwprogramming.tistory.com/16>
+- 프로세스와 스레드 : <https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.html> / <https://velog.io/@raejoonee/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80-%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4>
