@@ -21,3 +21,5 @@
 - https://m.blog.naver.com/justkukaro/220548164184
 - https://chanhuiseok.github.io/posts/ds-2/
 - https://gmlwjd9405.github.io/2018/08/13/data-structure-graph.html
+- https://gmlwjd9405.github.io/2018/08/12/data-structure-tree.html
+- https://yoongrammer.tistory.com/85?category=956616
