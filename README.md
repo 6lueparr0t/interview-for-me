@@ -25,8 +25,7 @@ A 회사 (B2C 서비스)
 9. secret(API key 같은거) 관련 데이터를 어떤식으로 다루는지
 10. 자바 GC 동작 원리 + 자바 레퍼런스 종류 뭐있는지 + 어떤식으로 쓰이는지
 11 진행했던 프로젝트 관련 설명
-12 Multi tenency architecture 설계를 어떤식으로 할건지 (이정도 까지는 안물을듯)
-13. DB 정규화 종류 뭐있는지 + 상황 설정 하면서 어떤식으로 쓰이는지
+12. DB 정규화 종류 뭐있는지 + 상황 설정 하면서 어떤식으로 쓰이는지
 
 B 회사 (게임사)
 1. 인덱스 내부 구조(클러스티드 인덱스, 논 클러스티드 인덱스)
@@ -35,7 +34,7 @@ B 회사 (게임사)
 4. 프로세스, 스레드의 차이점을 각 OS 별로 아는대로 다 설명 하시오
  - 버전 별로 어떻게 도는지 까지 설명 했던거 같네요
 5. 자바 GC 동작 원리 + 자바 레퍼런스 종류 뭐있는지 + 어떤식으로 쓰이는지
-6. Multi tenency architecture 설계를 어떤식으로 할건지 (이정도 까지는 안물을듯)
+6. Multi tenency architecture 설계에 대해서
 7. 메모리 할당 알고리즘 이 어떤 식으로 도는지
 8. HTTPS 프로토콜 + 프로토콜 동작 원리
 9. HTTP 프로토콜 특징 + 내부적으로 어떤 방식으로 도는지
@@ -72,14 +71,4 @@ https://jsonapi.org/format/
 https://github.com/ksundong/backend-interview-question
 
 https://github.com/Integerous/goQuality-dev-contents
-
-정렬의 종류
-
-선택
-삽입
-합병
-버블
-퀵
-
-다익스트라(Dijkstra) 알고리즘
 ```

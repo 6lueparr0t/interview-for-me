@@ -1,3 +1,5 @@
+# 001_data_structure
+
 ## 1. 자료구조에 대해서 설명해주시고, 생각나는 자료구조에 대해 말씀해주세요
 
 - 자료구조는 자료를 효율적으로 저장할 수 있는 방법이고, 선형 구조와 비선형 구조로 나뉘는데, 선형 구조엔 연결 리스트, 스택, 큐, 데크가 있고, 비선형 구조에는 트리와 그래프가 있습니다.
@@ -11,15 +13,16 @@
 - 그래프는 정점(Vertex, 자료를 저장하려는 자료의 단위, 노드(Node)라고도 말함)과 정점을 연결하는 간선(Edge, 정점 사이를 연결하는 선으로 두 정점 쌍 (u, v)로 표현)으로 구성되어 있고, 계층이 없고 정점과 정점을 연결하기 때문에 네트워크 처럼 복잡하게 연결되어 있습니다. 정점 사이를 연결하는 간선은 방향이 있거나 없을 수 있습니다. 순회는 깊이 우선 탐색(DFS, Depth-First Search, 모든 노드를 방문하고자 할 때)과 너비 우선 탐색(BFS, Breadth-First Search, 두 노드 사이의 최단 경로 혹은 임의의 경로를 찾고 싶을 때) 2가지가 있습니다.
 
 ## 참고
-- https://yoongrammer.tistory.com/42?category=956616
-- https://jee-young.tistory.com/31
-- https://yoongrammer.tistory.com/68
-- https://ko.wikipedia.org/wiki/%ED%8A%B8%EB%A6%AC_%EA%B5%AC%EC%A1%B0
-- https://yoongrammer.tistory.com/68
-- https://velog.io/@muchogusto/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B07-%ED%8A%B8%EB%A6%AC
-- https://ansohxxn.github.io/algorithm/bst/#-%EC%9D%B4%EC%A7%84-%ED%83%90%EC%83%89-%ED%8A%B8%EB%A6%AC%EC%9D%98-%EC%9E%A5%EC%A0%90
-- https://m.blog.naver.com/justkukaro/220548164184
-- https://chanhuiseok.github.io/posts/ds-2/
-- https://gmlwjd9405.github.io/2018/08/13/data-structure-graph.html
-- https://gmlwjd9405.github.io/2018/08/12/data-structure-tree.html
-- https://yoongrammer.tistory.com/85?category=956616
+
+- <https://yoongrammer.tistory.com/42?category=956616>
+- <https://jee-young.tistory.com/31>
+- <https://yoongrammer.tistory.com/68>
+- <https://ko.wikipedia.org/wiki/%ED%8A%B8%EB%A6%AC_%EA%B5%AC%EC%A1%B0>
+- <https://yoongrammer.tistory.com/68>
+- <https://velog.io/@muchogusto/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B07-%ED%8A%B8%EB%A6%AC>
+- <https://ansohxxn.github.io/algorithm/bst/#-%EC%9D%B4%EC%A7%84-%ED%83%90%EC%83%89-%ED%8A%B8%EB%A6%AC%EC%9D%98-%EC%9E%A5%EC%A0%90>
+- <https://m.blog.naver.com/justkukaro/220548164184>
+- <https://chanhuiseok.github.io/posts/ds-2/>
+- <https://gmlwjd9405.github.io/2018/08/13/data-structure-graph.html>
+- <https://gmlwjd9405.github.io/2018/08/12/data-structure-tree.html>
+- <https://yoongrammer.tistory.com/85?category=956616>
