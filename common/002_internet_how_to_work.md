@@ -5,3 +5,5 @@
 ## 출처
 
 - 인터넷의 동작원리 : https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/How_the_Web_works
+
+- 렌더링 과정 : https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction?hl=ko
