@@ -67,8 +67,45 @@ B사(하드코딩, B2B) /
 
 API 설계 할때 참고
 https://jsonapi.org/format/
-
 https://github.com/ksundong/backend-interview-question
-
 https://github.com/Integerous/goQuality-dev-contents
+
+현재 지원한 직무에 대한 이해도
+Java - SOLID 원칙에 대해서 아는 것 말해보기
+Java - IoC 에 대해 설명하기 & 장점 (의존성 주입)
+DDD 에 대해서 설명하기
+본인이 하고있는 것들과 현재 공부하는 것들
+최근에 한 프로젝트와 기여한 부분
+애자일에 대한 이해와 설명
+스크럽에 대해서
+스프린트 리뷰에 대해서
+Git 브랜치 전략과 관리
+IaC 사용 경험 (code formation / 테라폼 같은)
+MSA 관련 경험과 설계 방법 & 예시
+ㄴ 현재 서비스의 일부를 MSA 로 바꾼다면? 어떻게 바꿀 것인지
+DevOps 의 탄생 배경과 하는 일
+롤링업데이트, 블루그린, 카나리에 대해서
+뷰와 리액트의 차이 & 장단점
+eventually consistency 에 대해서 (DB 쪽)
+
+RESTful API 에 대해서
+
+디비에서 인덱싱쓰는 이유
+인덱싱 예시 : 비트리 인덱싱
+GIL에 대한 설명
+GIL의 장점
+데이터베이스 정규화는 왜 하는거 + 역정규화
+장고에서 prefetch, select_related 설명
+CORS 란? CORS에서 오리진의 범위
+JWT의 장점
+요청부터 응답까지의 한 사이클
+MTV, MVC의 차이
+사용자의 요청이 몰렸을 때 문제 해결하는 방법
+반대로 서버는 요청을 견디는데 디비에 과부하가 올때
+redis등으로 캐시를 사용해본 경험
+CDN 활용경험
+CDN의 두가지 유형
+로드밸런서란 무엇인가
+Nginx를 활용할수있는 것들
+nginx의 로드밸런서와 aws 로드밸런서에 대한 설명
 ```
