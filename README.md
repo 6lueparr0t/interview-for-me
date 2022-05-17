@@ -5,101 +5,88 @@
 
 ## 정리 할 내용 (정리 후 삭제)
 
-```text
+### back-end
+
 사내 인프라 구축 AWS 서비스 어떻게 되어있냐 + 각각에 대한 설명
-스프링 관련 개념
-- 서블릿 관련 질문
-- 대표적인 자바 안티패턴 코드
-- 객체지향 설계원칙
-- 디비 인덱스 : 클러스터드 / 논클러스터드 차이
 
-A 회사 (B2C 서비스)
-1. 인덱스 내부 구조(인덱스 자료 구조로 뭐 쓰는지)
-2. 공간 정보(GIS) 관련 정보 인덱스 하는 방법 들
-3. CAP 정리 + 이유
-4. 해시 함수를 왜 쓰는지 + 동작 원리…?
-5. HTTPS 프로토콜 + 프로토콜 동작 원리
-6. HTTP 프로토콜 특징 + 내부적으로 어떤 방식으로 도는지
-7. 뉴스 피드 서비스 설계 해보기
-8. MSA 관련 질문들
- - SAGA, 서킷브레이크, CQRS 패턴 왜 쓰는지 + 어떤식으로 설계 했는지
-9. secret(API key 같은거) 관련 데이터를 어떤식으로 다루는지
-10. 자바 GC 동작 원리 + 자바 레퍼런스 종류 뭐있는지 + 어떤식으로 쓰이는지
-11 진행했던 프로젝트 관련 설명
-12. DB 정규화 종류 뭐있는지 + 상황 설정 하면서 어떤식으로 쓰이는지
+인덱스 내부 구조(클러스티드 인덱스, 논 클러스티드 인덱스)
 
-B 회사 (게임사)
-1. 인덱스 내부 구조(클러스티드 인덱스, 논 클러스티드 인덱스)
-2. Rand 함수의 내부 동작 원리
-3. 진행했던 프로젝트
-4. 프로세스, 스레드의 차이점을 각 OS 별로 아는대로 다 설명 하시오
- - 버전 별로 어떻게 도는지 까지 설명 했던거 같네요
-5. 자바 GC 동작 원리 + 자바 레퍼런스 종류 뭐있는지 + 어떤식으로 쓰이는지
-6. Multi tenency architecture 설계에 대해서
-7. 메모리 할당 알고리즘 이 어떤 식으로 도는지
-8. HTTPS 프로토콜 + 프로토콜 동작 원리
-9. HTTP 프로토콜 특징 + 내부적으로 어떤 방식으로 도는지
-10. webRTC 가 대충 어찌 도는지 간략하게만? 물어봄
-11. webGL, OpenGL 관련 질문 간략하게
+해시 함수를 왜 쓰는지 + 동작 원리…?
 
-+ 해싱 함수 만들때 소수로 나머지 연산 하는 이유도..?
+HTTPS 프로토콜 + 프로토콜 동작 원리
 
-geohash 관련 내용
+HTTP 프로토콜 특징 + 내부적으로 어떤 방식으로 도는지
 
-공통 /
-1. CSS 기초지식
-2. JS ES5 / ES6 차이
-3. this에 대해 설명
-4. HTML4 / HTML5 차이
-5. 홈페이지 렌더링 / 사용자에게 보이는 원리 설명
-6. 클로저에 대해 설명
-7. GET, POST가 어떻게 다른가
-8. git 경험 여부
+뉴스 피드 서비스 설계 해보기
 
-A사(리액트, TS, B2C) / 
-1. 포트폴리오 리액트 관련 질문
-2. 상태(형상)관리 구현 방법
-3. TS 경험 여부
+MSA 관련 질문들
+- SAGA, 서킷브레이크, CQRS 패턴 왜 쓰는지 + 어떤식으로 설계 했는지
 
-B사(하드코딩, B2B) / 
-1. 뷰 or 리액트 도입 예정인데 경험해봤냐
-2. MVC, MVP, MVVM 아는 만큼 설명
-3. HTTP 0.9 / 1.0의 차이 설명
+secret(API key 같은거) 관련 데이터를 어떤식으로 다루는지
 
-API 설계 할때 참고
-https://jsonapi.org/format/
-https://github.com/ksundong/backend-interview-question
-https://github.com/Integerous/goQuality-dev-contents
+자바 GC 동작 원리 + 자바 레퍼런스 종류 뭐있는지 + 어떤식으로 쓰이는지
+
+Multi tenency architecture 설계에 대해서
+
+HTTPS 프로토콜 + 프로토콜 동작 원리
+
+HTTP 프로토콜 특징 + 내부적으로 어떤 방식으로 도는지 + 해싱 함수 만들때 소수로 나머지 연산 하는 이유도..?
 
 애자일에 대한 이해와 설명
+
 스크럼에 대해서
+
 스프린트 리뷰에 대해서
+
 Git 브랜치 전략과 관리
+
 IaC 사용 경험 (code formation / 테라폼 같은)
+
 MSA 관련 경험과 설계 방법 & 예시
-ㄴ 현재 서비스의 일부를 MSA 로 바꾼다면? 어떻게 바꿀 것인지
+- 현재 서비스의 일부를 MSA 로 바꾼다면? 어떻게 바꿀 것인지
+
 DevOps 의 탄생 배경과 하는 일
+
 롤링업데이트, 블루그린, 카나리에 대해서
+
 뷰와 리액트의 차이 & 장단점
+
 eventually consistency 에 대해서 (DB 쪽)
 
 RESTful API 에 대해서
 
 디비에서 인덱싱쓰는 이유
+
 인덱싱 예시 : 비트리 인덱싱
+
 데이터베이스 정규화는 왜 하는거 + 역정규화
-장고에서 prefetch, select_related 설명
+
 CORS 란? CORS에서 오리진의 범위
+
 JWT의 장점
+
 요청부터 응답까지의 한 사이클
+
 사용자의 요청이 몰렸을 때 문제 해결하는 방법
+
 반대로 서버는 요청을 견디는데 디비에 과부하가 올때
+
 redis등으로 캐시를 사용해본 경험
+
 CDN 활용경험
+
 CDN의 두가지 유형
+
 로드밸런서란 무엇인가
+
 Nginx를 활용할수있는 것들
+
 nginx의 로드밸런서와 aws 로드밸런서에 대한 설명
+
+스프링 관련
+- 서블릿 관련 질문
+- 대표적인 자바 안티패턴 코드
+- 객체지향 설계원칙
 
 스프링부트 특징 및 장점
 - IoC
@@ -164,9 +151,31 @@ JPA 성능 최적화
 
 REST API 에 대해서
 - REST API 설계 방법
-- https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html
 
 트랜잭션의 필요성
 
-참고 : https://github.com/ksundong/backend-interview-question
-```
+### common
+
+JS ES5 / ES6 차이
+
+this에 대해 설명
+
+HTML4 / HTML5 차이
+
+홈페이지 렌더링 / 사용자에게 보이는 원리 설명
+
+클로저에 대해 설명
+- https://hanamon.kr/javascript-%ED%81%B4%EB%A1%9C%EC%A0%80/
+
+## 참고 할 만한 링크
+
+- https://github.com/Mrchanghao/Interview_Question_for_Beginner
+
+- https://github.com/ksundong/backend-interview-question
+
+- https://github.com/Integerous/goQuality-dev-contents
+
+- https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html
+
+- https://jsonapi.org/format/
+
