@@ -167,4 +167,6 @@ REST API 에 대해서
 - https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html
 
 트랜잭션의 필요성
+
+참고 : https://github.com/ksundong/backend-interview-question
 ```
