@@ -3,7 +3,7 @@
 - 면접 완료 후 좋은 회사 들어갈 때 까지, 해당 내용 정리하기
 - https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 
-## 정리 할 내용
+## 정리 할 내용 (정리 후 삭제)
 
 ```text
 사내 인프라 구축 AWS 서비스 어떻게 되어있냐 + 각각에 대한 설명
@@ -71,10 +71,6 @@ https://jsonapi.org/format/
 https://github.com/ksundong/backend-interview-question
 https://github.com/Integerous/goQuality-dev-contents
 
-현재 지원한 직무에 대한 이해도
-DDD 에 대해서 설명하기
-본인이 하고있는 것들과 현재 공부하는 것들
-최근에 한 프로젝트와 기여한 부분
 애자일에 대한 이해와 설명
 스크럼에 대해서
 스프린트 리뷰에 대해서
@@ -91,14 +87,11 @@ RESTful API 에 대해서
 
 디비에서 인덱싱쓰는 이유
 인덱싱 예시 : 비트리 인덱싱
-GIL에 대한 설명
-GIL의 장점
 데이터베이스 정규화는 왜 하는거 + 역정규화
 장고에서 prefetch, select_related 설명
 CORS 란? CORS에서 오리진의 범위
 JWT의 장점
 요청부터 응답까지의 한 사이클
-MTV, MVC의 차이
 사용자의 요청이 몰렸을 때 문제 해결하는 방법
 반대로 서버는 요청을 견디는데 디비에 과부하가 올때
 redis등으로 캐시를 사용해본 경험
@@ -107,4 +100,71 @@ CDN의 두가지 유형
 로드밸런서란 무엇인가
 Nginx를 활용할수있는 것들
 nginx의 로드밸런서와 aws 로드밸런서에 대한 설명
+
+스프링부트 특징 및 장점
+- IoC
+- Bean scope
+- 내장서버(톰캣) 등
+- Lombok 에서 지원하는 Annotation 을 활용해서 런타임 시 특정 기능을 사용하기 위한 정보 제공
+- Maven, Gradle 을 사용해 프로젝트 관리를 할 수 있음
+
+스트림 API 사용 시
+- 원본의 데이터를 변경하지 않음
+- 일회용
+- 내부 반복으로 작업을 처리
+- https://www.geeksforgeeks.org/difference-between-streams-and-collections-in-java/
+- Java 스트림은 순차 및 병렬 처리를 모두 지원합니다.
+
+Mutable, immutable 에 대해
+- https://cdy0510.github.io/2018/05/10/mutable-immutable/
+
+Exception 종류, 발생 원인
+- https://sorjfkrh5078.tistory.com/104
+
+Exception 전역 관리
+- https://kdg-is.tistory.com/221?category=983893
+
+AOP (Aspect Oriented Programming) 에 대해서
+
+Collection 종류
+- List(ArrayList, LinkedList 등), Set, Map, Vector
+- https://lelecoder.com/78 참고
+
+Test Code 사용 방법
+- Junit 버전별 차이
+- Unit Test 방법
+
+멀티스레드에서의 작업
+- Thread-safe 하게 작업해야함
+- 두 개 이상의 스레드가 race condition에 들어가거나 같은 객체에 동시에 접근해도 연산결과의 정합성이 보장될 수 있게끔 메모리 가시성이 확보된 상태를 의미합니다.
+- java.util.concurrent 패키지 하위의 클래스를 사용합니다.
+- 인스턴스 변수를 두지 않습니다.
+- Singleton 패턴을 사용합니다. 이 때, 일반적으로 구현하는 Singleton Pattern은 Thread-safe 하지 않습니다.
+  - https://github.com/ksundong/TIL/blob/master/DesignPattern/singleton-pattern.md
+- 동기화(syncronized) 블럭에서 연산을 수행합니다.
+- ConcurrentHashMap 사용
+
+TDD, DDD 에 대해
+
+Optional 사용 경험
+
+Future 패턴에 대해서
+- Javascript Async, Await, Promise 에 대해서도
+
+Mybatis & JPA 비교
+
+JPA 성능 최적화
+- N+1
+- 영속성 (데이터가 없어지지 않고 유지됨)
+
+메시징 큐 사용 경험
+- Kafka
+- Consumer, Producer 구조
+- Dead Letter Queue
+
+REST API 에 대해서
+- REST API 설계 방법
+- https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html
+
+트랜잭션의 필요성
 ```
