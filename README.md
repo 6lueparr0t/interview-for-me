@@ -72,8 +72,6 @@ https://github.com/ksundong/backend-interview-question
 https://github.com/Integerous/goQuality-dev-contents
 
 현재 지원한 직무에 대한 이해도
-Java - SOLID 원칙에 대해서 아는 것 말해보기
-Java - IoC 에 대해 설명하기 & 장점 (의존성 주입)
 DDD 에 대해서 설명하기
 본인이 하고있는 것들과 현재 공부하는 것들
 최근에 한 프로젝트와 기여한 부분
