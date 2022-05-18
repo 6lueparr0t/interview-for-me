@@ -2,7 +2,7 @@
 
 ## 1. 스프링의 IoC 컨테이너와 Bean 의 관계, 그리고 Bean Scope 에 대해서 간략하게 설명해주세요
 
-- IoC 는 제어의 역전(Inversion of Control) 이라는 뜻으로 개발자가 외부 라이브러리를 호출하는 것이 아닌, 외부 라이브러리가 개발자의 코드를 호출합니다. IoC 방식으로 개발을 하게 되면 개발자는 자기가 개발하는 코드에만 온전히 신경 쓸 수 있고, 모듈이 바뀌어도 시스템에 영향이 가지 않습니다. 거기에 의존성과 객체의 생성과 소멸 또한 IoC 컨테이너에 의해 관리됩니다. Bean은 스프링의 IoC 컨테이너에서 사용하는 객체를 나타내는 용어 입니다. 객체를 IoC 컨테이너에 등록 시켜 Bean 으로써 사용하려면 2가지 방법이 있는데, 하나는 Annotation 을 사용하는 방법 Component Scan(@Controller, @Service, @Repository or @Configuration 과 @Bean 을 사용), 그리고 또 하나는 application.xml 를 생성하여 등록하는 방법이 있습니다.
+- IoC 는 제어의 역전(Inversion of Control) 이라는 뜻으로 개발자가 외부 라이브러리를 호출하는 것이 아닌, 외부 라이브러리가 개발자의 코드를 호출합니다.(의존성 주입(DI, Dependency Injection)) IoC 방식으로 개발을 하게 되면 개발자는 자기가 개발하는 코드에만 온전히 신경 쓸 수 있고, 모듈이 바뀌어도 시스템에 영향이 가지 않습니다. 거기에 의존성과 객체의 생성과 소멸 또한 IoC 컨테이너에 의해 관리됩니다. Bean은 스프링의 IoC 컨테이너에서 사용하는 객체를 나타내는 용어 입니다. 객체를 IoC 컨테이너에 등록 시켜 Bean 으로써 사용하려면 2가지 방법이 있는데, 하나는 Annotation 을 사용하는 방법 Component Scan(@Controller, @Service, @Repository or @Configuration 과 @Bean 을 사용), 그리고 또 하나는 application.xml 를 생성하여 등록하는 방법이 있습니다.
 
 - Bean Scope 는 Bean 을 어떻게 쓸지에 대한 범위를 정하는 것으로 대표적인 것이 싱글톤(singleton) 과 프로토타입(prototype) 이 있습니다. 싱글톤은 앱이 구동하는 동안 하나의 객체만 사용하는 것이고, 프로토타입은 앱에서 호출 시 (getBean 메서드 사용) Bean이 생성이 됩니다.
 

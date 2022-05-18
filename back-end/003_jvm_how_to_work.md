@@ -17,6 +17,10 @@
 
 - Java에서는 개발자가 프로그램 코드로 메모리를 명시적으로 해제하지 않기 때문에 가비지 컬렉터(Garbage Collector)가 더 이상 필요 없는 (쓰레기) 객체를 찾아 지우는 작업을 한다.
 
+## 가비지 컬렉션
+
+- https://kotlinworld.com/340
+
 ## 참고
 
 - https://swk3169.tistory.com/181
