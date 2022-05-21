@@ -65,7 +65,7 @@
 
 - Bamboo(CI/CD 툴) 와 Apache 동적 디렉터리 기능을 사용한 간단한 구현
 
-- 이후엔 hosts / gasmask 를 사용해 호스트 설정해서 사용할 수 있는 방법을 전사에 공유
+- 이후엔 hostsman(window) / gasmask(mac) 를 사용해 호스트 설정해서 사용할 수 있는 방법을 전사에 공유
 
 
 ## 빗썸오피셜 취약점 조치
