@@ -2,6 +2,7 @@
 
 - 면접 완료 후 좋은 회사 들어갈 때 까지, 해당 내용 정리하기
 - https://github.com/JaeYeopHan/Interview_Question_for_Beginner
+- https://github.com/ksundong/backend-interview-question
 
 ## 정리 할 내용 (정리 후 삭제)
 
